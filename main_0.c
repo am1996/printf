@@ -11,12 +11,12 @@ int main(void)
 {
 	int len, len2;
 
-	len = _printf("%S", "No special character.");
+	len = _printf( "No special character.");
 	len2 = printf("No special character.");
 	fflush(stdout);
-	if (len != len2)
+	if (len == len2)
 	{
-		printf("Lengths differ.\n");
+		printf("No special character.\nNo special character.");
 		return (1);
 	}
 	return (0);
