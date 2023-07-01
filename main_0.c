@@ -11,7 +11,7 @@ int main(void)
 {
 	int len, len2;
 
-	len = _printf("%S", "No special character.");
+	len = printf("%S", "No special character.");
 	len2 = printf("No special character.");
 	fflush(stdout);
 	if (len != len2)
