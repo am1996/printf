@@ -16,7 +16,7 @@ int main(void)
 	fflush(stdout);
 	if (len != len2)
 	{
-		printf("Lengths differ.\n");
+		printf("No special character.\n");
 		fflush(stdout);
 		return (1);
 	}
